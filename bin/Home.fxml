@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.TilePane?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.4000244140625" minWidth="10.0" prefWidth="314.79998779296875" />
+    <ColumnConstraints hgrow="SOMETIMES" maxWidth="286.0000122070312" minWidth="10.0" prefWidth="286.0000122070312" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <TilePane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" />
+      <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <image>
+            <Image url="@../../../../Downloads/circle-plus-solid.png" />
+         </image>
+         <GridPane.margin>
+            <Insets top="10.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label text="Add New Friend" textFill="#5b2c6f" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <GridPane.margin>
+            <Insets bottom="15.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <image>
+            <Image url="@../../../../Downloads/circle-user-regular.png" />
+         </image>
+         <GridPane.margin>
+            <Insets top="10.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label text="View Profile" textFill="#5b2c6f" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="15.0" />
+         </GridPane.margin>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
+         <image>
+            <Image url="@../../../../Downloads/gear-solid.png" />
+         </image>
+         <GridPane.margin>
+            <Insets top="10.0" />
+         </GridPane.margin>
+      </ImageView>
+      <Label text="Setting" textFill="#5b2c6f" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="15.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="View Friend List" textFill="#5b2c6f" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+         <GridPane.margin>
+            <Insets bottom="15.0" />
+         </GridPane.margin>
+      </Label>
+      <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+         <image>
+            <Image url="@../../../../Downloads/magnifying-glass-solid.png" />
+         </image>
+         <GridPane.margin>
+            <Insets top="10.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="200.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+         <image>
+            <Image url="@../../../Desktop/WhatsApp%20Image%202022-03-16%20at%2012.01.06%20PM.jpeg" />
+         </image>
+         <GridPane.margin>
+            <Insets left="300.0" />
+         </GridPane.margin>
+      </ImageView>
+   </children>
+</GridPane>

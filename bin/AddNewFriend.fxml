@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="499.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="28.0" layoutY="98.0" text="Nick Name" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="173.0" text="Contact Number" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="53.0" prefHeight="26.0" prefWidth="200.0" text="Test" />
+      <TextField layoutX="190.0" layoutY="95.0" prefHeight="26.0" prefWidth="200.0" text="Mailinator" />
+      <Label layoutX="28.0" layoutY="56.0" text="Name" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="209.0" text="Gender" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="173.0" prefHeight="26.0" prefWidth="200.0" text="874562116" />
+      <RadioButton layoutX="190.0" layoutY="212.0" mnemonicParsing="false" text="Male" textFill="#5b2c6f" />
+      <RadioButton layoutX="250.0" layoutY="212.0" mnemonicParsing="false" text="Female" textFill="#5b2c6f" />
+      <RadioButton layoutX="320.0" layoutY="212.0" mnemonicParsing="false" text="Other" textFill="#5b2c6f" />
+      <Label layoutX="28.0" layoutY="283.0" text="About Me" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="190.0" layoutY="280.0" prefHeight="62.0" prefWidth="200.0" />
+      <Label layoutX="28.0" layoutY="348.0" text="Hobbies" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="358.0" prefHeight="26.0" prefWidth="200.0" />
+      <Label layoutX="28.0" layoutY="397.0" text="Address" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="190.0" layoutY="397.0" prefHeight="44.0" prefWidth="200.0" />
+      <Button layoutX="190.0" layoutY="479.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="92.0" style="-fx-background-color: #5B2C6F;" text="Save" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="300.0" layoutY="479.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="92.0" style="-fx-background-color: #6c757dcf;" text="Cancel" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Label layoutX="28.0" layoutY="135.0" text="Upload Image" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="28.0" layoutY="244.0" text="DOB" textFill="#5b2c6f">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField layoutX="190.0" layoutY="241.0" prefHeight="26.0" prefWidth="200.0" text="03/07/1991" />
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="59.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="410.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="247.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="176.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="101.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="296.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="364.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="401.0" layoutY="137.0">
+         <image>
+            <Image url="@trash-solid.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="29.0" layoutX="190.0" layoutY="132.0">
+         <image>
+            <Image url="@../../../../Downloads/image-regular.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

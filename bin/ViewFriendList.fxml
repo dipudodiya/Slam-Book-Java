@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="499.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.3741610738255034, 0.5" layoutX="24.0" layoutY="24.0" orientation="VERTICAL" prefHeight="315.0" prefWidth="450.0">
+        <items>
+          <AnchorPane maxHeight="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="449.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="17.0">
+                     <image>
+                        <Image url="@../../../../Downloads/circle-user-regular.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="89.0" layoutY="20.0" text="Name" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="50.0" text="Contact Number" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="398.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../../../../Downloads/pen-to-square-regular.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="208.0" layoutY="20.0" text="Zeel Mewada" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="208.0" layoutY="50.0" text="4374211111" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="420.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../../../../Downloads/trash-solid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="449.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="17.0">
+                     <image>
+                        <Image url="@../../../../Downloads/circle-user-regular.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="89.0" layoutY="20.0" text="Name" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="50.0" text="Contact Number" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="398.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../../../../Downloads/pen-to-square-regular.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="208.0" layoutY="20.0" text="Dipu Dodiya" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="208.0" layoutY="50.0" text="3932410000" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="420.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../../../../Downloads/trash-solid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+            <AnchorPane maxHeight="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="449.0" style="-fx-background-color: #fff;">
+               <children>
+                  <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="17.0">
+                     <image>
+                        <Image url="@../../../../Downloads/circle-user-regular.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="89.0" layoutY="20.0" text="Name" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="89.0" layoutY="50.0" text="Contact Number" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="398.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../../../../Downloads/pen-to-square-regular.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="208.0" layoutY="20.0" text="Charmi Surti" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="208.0" layoutY="51.0" text="6483336666" textFill="#5b2c6f">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="420.0" layoutY="13.0">
+                     <image>
+                        <Image url="@../../../../Downloads/trash-solid.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Button layoutX="394.0" layoutY="351.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #6c757dcf;" text="Close" textFill="WHITE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
