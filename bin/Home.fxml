@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.TilePane?>
 <?import javafx.scene.text.Font?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewFriendController">
   <columnConstraints>
     <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.4000244140625" minWidth="10.0" prefWidth="314.79998779296875" />
     <ColumnConstraints hgrow="SOMETIMES" maxWidth="286.0000122070312" minWidth="10.0" prefWidth="286.0000122070312" />
@@ -24,7 +24,7 @@
       <TilePane prefHeight="200.0" prefWidth="200.0" GridPane.columnSpan="2" />
       <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
          <image>
-            <Image url="@../../../../Downloads/circle-plus-solid.png" />
+            <Image url="@Icons/circle-plus-solid.png" />
          </image>
          <GridPane.margin>
             <Insets top="10.0" />
@@ -40,7 +40,7 @@
       </Label>
       <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
          <image>
-            <Image url="@../../../../Downloads/circle-user-regular.png" />
+            <Image url="@Icons/circle-user-regular.png" />
          </image>
          <GridPane.margin>
             <Insets top="10.0" />
@@ -56,7 +56,7 @@
       </Label>
       <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
          <image>
-            <Image url="@../../../../Downloads/gear-solid.png" />
+            <Image url="@Icons/gear-solid.png" />
          </image>
          <GridPane.margin>
             <Insets top="10.0" />
@@ -78,9 +78,9 @@
             <Insets bottom="15.0" />
          </GridPane.margin>
       </Label>
-      <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+      <ImageView fx:id="btnVF" fitHeight="76.0" fitWidth="73.0"  GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
          <image>
-            <Image url="@../../../../Downloads/magnifying-glass-solid.png" />
+            <Image url="@Icons/magnifying-glass-solid.png"/>
          </image>
          <GridPane.margin>
             <Insets top="10.0" />
@@ -88,7 +88,7 @@
       </ImageView>
       <ImageView fitHeight="100.0" fitWidth="200.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
          <image>
-            <Image url="@../../../Desktop/WhatsApp%20Image%202022-03-16%20at%2012.01.06%20PM.jpeg" />
+            <Image url="@Icons/AppIcon.jpeg" />
          </image>
          <GridPane.margin>
             <Insets left="300.0" />

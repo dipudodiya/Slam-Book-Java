@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="499.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="558.0" prefWidth="499.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SignupController">
    <children>
       <Label layoutX="32.0" layoutY="138.0" text="Email ID" textFill="#5b2c6f">
          <font>
@@ -20,8 +20,8 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="190.0" layoutY="89.0" prefHeight="26.0" prefWidth="200.0" text="Test" />
-      <TextField layoutX="190.0" layoutY="135.0" prefHeight="26.0" prefWidth="200.0" text="test@mailinator.com" />
+      <TextField fx:id="txtName" layoutX="190.0" layoutY="89.0" prefHeight="26.0" prefWidth="200.0" />
+      <TextField fx:id="txtEmail" layoutX="190.0" layoutY="135.0" prefHeight="26.0" prefWidth="200.0" text="test@mailinator.com" />
       <Label layoutX="32.0" layoutY="92.0" text="Name" textFill="#5b2c6f">
          <font>
             <Font size="14.0" />
@@ -32,22 +32,22 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="190.0" layoutY="181.0" prefHeight="26.0" prefWidth="200.0" text="874562116" />
-      <RadioButton layoutX="190.0" layoutY="273.0" mnemonicParsing="false" text="Male" textFill="#5b2c6f" />
-      <RadioButton layoutX="252.0" layoutY="273.0" mnemonicParsing="false" text="Female" textFill="#5b2c6f" />
-      <RadioButton layoutX="323.0" layoutY="273.0" mnemonicParsing="false" text="Other" textFill="#5b2c6f" />
+      <TextField fx:id="txtContact" layoutX="190.0" layoutY="181.0" prefHeight="26.0" prefWidth="200.0" text="874562116" />
+      <RadioButton fx:id="radioMale" layoutX="190.0" layoutY="273.0" mnemonicParsing="false" onAction="#btnMale" text="Male" textFill="#5b2c6f" />
+      <RadioButton fx:id="radioFemale" layoutX="252.0" layoutY="273.0" mnemonicParsing="false" onAction="#btnFemale" text="Female" textFill="#5b2c6f" />
+      <RadioButton fx:id="radioOther" layoutX="323.0" layoutY="273.0" mnemonicParsing="false" onAction="#btnOther" text="Other" textFill="#5b2c6f" />
       <Label layoutX="32.0" layoutY="322.0" text="Password" textFill="#5b2c6f">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="190.0" layoutY="319.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="200.0" />
+      <TextField fx:id="txtxPassword" layoutX="190.0" layoutY="319.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="200.0" />
       <Label layoutX="201.0" layoutY="25.0" text="Register" textFill="#5b2c6f">
          <font>
             <Font name="System Bold" size="28.0" />
          </font>
       </Label>
-      <Button layoutX="175.0" layoutY="438.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #5B2C6F;" text="Sign Up" textFill="WHITE">
+      <Button fx:id="btnSign" layoutX="175.0" layoutY="438.0" mnemonicParsing="false" onAction="#btnForSignup" prefHeight="40.0" prefWidth="200.0" style="-fx-background-color: #5B2C6F;" text="Sign Up" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
@@ -60,12 +60,12 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="190.0" layoutY="227.0" prefHeight="26.0" prefWidth="200.0" text="12/07/1991" />
+      <TextField fx:id="txtBirth" layoutX="190.0" layoutY="227.0" prefHeight="26.0" prefWidth="200.0" text="12/07/1991" />
       <Label layoutX="32.0" layoutY="363.0" text="Confirm Password" textFill="#5b2c6f">
          <font>
             <Font size="14.0" />
          </font>
       </Label>
-      <TextField layoutX="190.0" layoutY="365.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="200.0" />
+      <TextField fx:id="txtConfirm" layoutX="190.0" layoutY="365.0" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="26.0" prefWidth="200.0" />
    </children>
 </AnchorPane>
