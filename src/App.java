@@ -9,7 +9,7 @@ public class App extends Application{
     public void start(Stage primaryStage) throws IOException 
     {
     
-        Parent root = FXMLLoader.load(getClass().getResource("AddNewFriend.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("SignUp.fxml"));
         Scene scene = new Scene(root,550,550); 
         primaryStage.setTitle("Slam Book"); 
         primaryStage.setScene(scene); 

@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="499.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="402.0" prefWidth="499.0" style="-fx-background-color: #F4ECF7;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ViewFriendController">
    <children>
       <SplitPane dividerPositions="0.3741610738255034, 0.5" layoutX="24.0" layoutY="24.0" orientation="VERTICAL" prefHeight="315.0" prefWidth="450.0">
         <items>
@@ -17,7 +17,7 @@
                <children>
                   <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="17.0">
                      <image>
-                        <Image url="@../../../../Downloads/circle-user-regular.png" />
+                        <Image url="@Icons/circle-user-regular.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="89.0" layoutY="20.0" text="Name" textFill="#5b2c6f">
@@ -32,7 +32,7 @@
                   </Label>
                   <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="398.0" layoutY="13.0">
                      <image>
-                        <Image url="@../../../../Downloads/pen-to-square-regular.png" />
+                        <Image url="@Icons/pen-to-square-regular.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="208.0" layoutY="20.0" text="Zeel Mewada" textFill="#5b2c6f">
@@ -47,7 +47,7 @@
                   </Label>
                   <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="420.0" layoutY="13.0">
                      <image>
-                        <Image url="@../../../../Downloads/trash-solid.png" />
+                        <Image url="@Icons/trash-solid.png" />
                      </image>
                   </ImageView>
                </children>
@@ -56,7 +56,7 @@
                <children>
                   <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="17.0">
                      <image>
-                        <Image url="@../../../../Downloads/circle-user-regular.png" />
+                        <Image url="@Icons/circle-user-regular.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="89.0" layoutY="20.0" text="Name" textFill="#5b2c6f">
@@ -71,7 +71,7 @@
                   </Label>
                   <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="398.0" layoutY="13.0">
                      <image>
-                        <Image url="@../../../../Downloads/pen-to-square-regular.png" />
+                        <Image url="@Icons/pen-to-square-regular.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="208.0" layoutY="20.0" text="Dipu Dodiya" textFill="#5b2c6f">
@@ -86,7 +86,7 @@
                   </Label>
                   <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="420.0" layoutY="13.0">
                      <image>
-                        <Image url="@../../../../Downloads/trash-solid.png" />
+                        <Image url="@Icons/trash-solid.png" />
                      </image>
                   </ImageView>
                </children>
@@ -95,7 +95,7 @@
                <children>
                   <ImageView fitHeight="53.0" fitWidth="52.0" layoutX="14.0" layoutY="17.0">
                      <image>
-                        <Image url="@../../../../Downloads/circle-user-regular.png" />
+                        <Image url="@Icons/circle-user-regular.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="89.0" layoutY="20.0" text="Name" textFill="#5b2c6f">
@@ -110,7 +110,7 @@
                   </Label>
                   <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="398.0" layoutY="13.0">
                      <image>
-                        <Image url="@../../../../Downloads/pen-to-square-regular.png" />
+                        <Image url="@Icons/pen-to-square-regular.png" />
                      </image>
                   </ImageView>
                   <Label layoutX="208.0" layoutY="20.0" text="Charmi Surti" textFill="#5b2c6f">
@@ -125,14 +125,14 @@
                   </Label>
                   <ImageView fitHeight="15.0" fitWidth="15.0" layoutX="420.0" layoutY="13.0">
                      <image>
-                        <Image url="@../../../../Downloads/trash-solid.png" />
+                        <Image url="@Icons/trash-solid.png" />
                      </image>
                   </ImageView>
                </children>
             </AnchorPane>
         </items>
       </SplitPane>
-      <Button layoutX="394.0" layoutY="351.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #6c757dcf;" text="Close" textFill="WHITE">
+      <Button fx:id="btnClose" layoutX="394.0" layoutY="351.0" maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" onAction="#btnForClose" prefHeight="30.0" prefWidth="80.0" style="-fx-background-color: #6c757dcf;" text="Close" textFill="WHITE">
          <cursor>
             <Cursor fx:constant="HAND" />
          </cursor>
