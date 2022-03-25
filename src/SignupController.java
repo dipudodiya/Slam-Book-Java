@@ -50,9 +50,11 @@ public class SignupController {
     @FXML
     void btnForSignup(ActionEvent event) throws IOException 
     {
-        Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
-        Stage window = (Stage) btnSign.getScene().getWindow();
+       // Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
+       Parent root = FXMLLoader.load(getClass().getResource("Home.fxml"));
+       Stage window = (Stage) btnSign.getScene().getWindow();
         window.setScene(new Scene(root, 550, 550));
+
     }
 
     @FXML

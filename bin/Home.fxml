@@ -40,7 +40,7 @@
       </Label>
       <ImageView fitHeight="76.0" fitWidth="73.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="TOP">
          <image>
-            <Image url="@../../../../Downloads/circle-user-regular.png" />
+            <Image url="@Icons/circle-user-regular.png" />
          </image>
          <GridPane.margin>
             <Insets top="10.0" />
@@ -78,9 +78,9 @@
             <Insets bottom="15.0" />
          </GridPane.margin>
       </Label>
-      <ImageView fx:id="btnVF" fitHeight="76.0" fitWidth="73.0" onMouseClicked="#ImageView" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
+      <ImageView fx:id="btnVF" fitHeight="76.0" fitWidth="73.0"  GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="TOP">
          <image>
-            <Image url="@Icons/magnifying-glass-solid.png" />
+            <Image url="@Icons/magnifying-glass-solid.png"/>
          </image>
          <GridPane.margin>
             <Insets top="10.0" />
